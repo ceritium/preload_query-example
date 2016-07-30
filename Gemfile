@@ -1,8 +1,11 @@
 source 'https://rubygems.org'
 
+# gem 'activerecord-preload_query', path: '../activerecord-preload_query'
+gem 'activerecord-preload_query', git: 'https://github.com/ceritium/activerecord-preload_query.git'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.0.0', git: 'https://github.com/ceritium/rails.git', branch: '5-0-stable-preload_query'
+gem 'rails', '~> 5.0.0'
+# gem 'rails', '~> 5.0.0', git: 'https://github.com/ceritium/rails.git', branch: '5-0-stable-preload_query'
 # gem 'rails', '~> 5.0.0', path: '../rails'
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 0.18'
